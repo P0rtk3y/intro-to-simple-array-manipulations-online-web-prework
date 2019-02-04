@@ -45,4 +45,5 @@ end
 
 def flatten(array, argument)
   array.flatten(argument)
+  return array 
 end
