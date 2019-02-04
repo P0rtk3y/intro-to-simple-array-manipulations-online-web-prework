@@ -29,6 +29,6 @@ end
 
 def using_concat(a, b)
   a.concat(b)
-  return a
+  a
   a.length
 end
