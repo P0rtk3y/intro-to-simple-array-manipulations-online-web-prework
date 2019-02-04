@@ -28,6 +28,6 @@ def shift_with_args(array)
 end 
 
 def using_concat(array_one, array_two)
-  concat_array = array_one + array_two
+  concat_array = array_two.concat(array_one)
   concat_array.length
 end
