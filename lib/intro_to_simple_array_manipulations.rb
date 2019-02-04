@@ -35,6 +35,5 @@ end
 
 def using_insert(array, new_element)
   array[4] = new_element
-  return array
   array.length
 end
