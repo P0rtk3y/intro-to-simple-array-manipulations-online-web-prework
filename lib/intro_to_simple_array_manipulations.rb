@@ -43,7 +43,6 @@ def using_uniq(array)
   array.uniq 
 end 
 
-def flatten(array, argument)
-  array.flatten(argument)
-  return array 
+def flatten(array)
+  array.flatten!
 end
