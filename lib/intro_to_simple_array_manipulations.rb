@@ -10,3 +10,7 @@ def using_unsift(array, string)
   new_array = array.unshift(string)
   new_array.length 
 end
+
+def using_pop(array)
+  array.pop 
+end 
