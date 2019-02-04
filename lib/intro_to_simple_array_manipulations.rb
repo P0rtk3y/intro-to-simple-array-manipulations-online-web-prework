@@ -32,3 +32,9 @@ def using_concat(a, b)
   return a
   a.length
 end
+
+def using_insert(array, new_element)
+  array[3] = new_element
+  return array
+  array.length
+end
