@@ -44,5 +44,6 @@ def using_uniq(array)
 end 
 
 def flatten(array)
-  array.flatten
+  new_array = array.flatten
+  new_array.to_s
 end
